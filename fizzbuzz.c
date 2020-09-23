@@ -2,17 +2,17 @@
 
 int main(void)
 {
-    int j = 1;
-    for (int i = 0; i < 101; i++,j++)
+    int i = 0;
+    for (int i = 0; i < 101; i++)
     {
-        if (j % 15 == 0){
+        if (i % 15 == 0){
             printf("fizzbuzz\n");
-        }else if (j % 3 == 0){
+        }else if (i % 3 == 0){
             printf("fizz\n");
-        }else if (j % 5 == 0){
+        }else if (i % 5 == 0){
             printf("buzz\n");
         }else{
-            printf("%d\n",j);
+            printf("%d\n",i);
         }
     }
     
